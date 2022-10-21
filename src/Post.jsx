@@ -13,9 +13,7 @@ const Post = (props) => {
             <div className='info'> 
                 <p className='name'>{props.name}</p>
                 <p className='time'>9h🌐</p>
-             </div>
-            
-           
+             </div>         
         </div>
 
         <div className='para'>
@@ -41,14 +39,8 @@ const Post = (props) => {
             <button> ↪ Share</button>
         </div>
 
-
-    
-
-
-
       </div>
       </>
   )
 }
-
 export default Post;
