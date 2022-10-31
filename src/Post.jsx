@@ -4,7 +4,6 @@ const Post = (props) => {
   return (
       <>
       <div className='main'>
-
       <div className='about-post'>
             <div className='pro-img'>
                 <img src={props.image1} alt="profile Iamge" />
@@ -19,7 +18,6 @@ const Post = (props) => {
         <div className='para'>
             <p><b>{props.caption}</b></p>
         </div>
-
 
         <div className='postimg'>
             <img src={props.image} alt="" />
